@@ -1,0 +1,320 @@
+.header-img {
+  width: 100%;
+  object-fit: cover;
+  height: 50vh;
+  position: absolute;
+  z-index: 1;
+  top: 0px;
+  box-shadow: 10px 10px 20px black;
+  border-radius: 10px;
+}
+.logo {
+  width: 70px;
+  position: relative;
+  height: fit-content;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.nav-1 {
+  position: relative;
+  display: flex;
+  width: 400px;
+  justify-content: space-between;
+}
+header {
+  font-size: 20px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.621);
+  z-index: 5;
+  height: 15vh;
+  box-shadow: 10px 10px 20px 20px rgba(0, 0, 0, 0.621);
+  position: fixed;
+  top: 0px;
+  backdrop-filter: blur(22px) saturate(95%);
+  -webkit-backdrop-filter: blur(22px) saturate(95%);
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 12px;
+}
+.nav-2 {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  width: 250px;
+}
+header a {
+  text-decoration: none;
+  color: white;
+}
+.logo-title {
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+}
+.logo-title h1 {
+  color: white;
+  padding-top: 10px;
+}
+.nav-2 a {
+  border: 3px rgb(56, 56, 56) solid;
+  padding: 7px;
+  background-color: #5050507f;
+  border-radius: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  transition: 0.7s;
+}
+.nav-2 a:hover {
+  border: 4px #08003d solid;
+  background-color: #08005b34;
+  transform: scale(1.1);
+}
+.nav-1 a {
+  transition: 0.4s;
+}
+.nav-1 a:hover {
+  color: rgb(171, 171, 171);
+}
+main {
+  background-image: url("https://img3.akspic.ru/crops/8/1/5/4/34518/34518-avtomobil-sportivnyj_avtomobil-mercedes_benz_sls_amg-mersedes_amg-mercedes_benz-3840x2160.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: -150px;
+  height: 1020px;
+  position: relative;
+}
+.main-div1 {
+  padding-top: 170px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  display: grid;
+  gap: 10px;
+}
+.div-1 img {
+  width: 50px;
+  border: 1px black solid;
+  margin-left: 20px;
+  background-color: rgba(220, 220, 220, 0.542);
+  border-radius: 5px;
+}
+.div-1 {
+  display: flex;
+  text-align: center;
+  border: black solid 2px;
+  width: fit-content;
+  height: fit-content;
+  padding: 5px;
+  background-color: rgba(172, 172, 172, 0.662);
+  border-radius: 5px;
+}
+.div-1 h1 {
+  font-size: 40px;
+}
+
+table {
+  border: black 1.5px solid;
+  font-size: 25px;
+  border-spacing: 0px;
+  width: fit-content;
+}
+table th {
+  border: 1.5px black solid;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.71);
+}
+table td {
+  border: 1.5px black solid;
+  padding: 10px;
+  font-weight: 100;
+  background-color: rgba(168, 168, 168, 0.516);
+}
+
+.g-63 img {
+  width: 280px;
+  height: 170px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: 1px black solid;
+  object-fit: cover;
+}
+.g-63 {
+  display: flex;
+  align-items: start;
+  background-color: rgba(255, 255, 255, 0.525);
+  width: fit-content;
+  padding: 10px;
+  margin-left: 25px;
+  border-radius: 10px;
+  border: 2px black solid;
+  margin-bottom: 20px;
+}
+.h4 {
+  font-size: 20px;
+  line-height: 27px;
+}
+.h3 {
+  font-size: 15px;
+  line-height: 20px;
+  color: rgb(70, 70, 70);
+}
+.h2 h2 {
+  font-size: 25px;
+  line-height: 50px;
+  margin-left: 10px;
+  color: rgb(0, 0, 0);
+}
+.h2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.заявка {
+  padding: 5px;
+  border: 2px black solid;
+  background-color: rgba(255, 255, 255, 0.389);
+  border-radius: 10px;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+main {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+.all-card {
+  display: flex;
+}
+.заявка:hover {
+  background-color: rgb(194, 194, 194);
+}
+.logo-title a {
+  padding-top: 10px;
+  transition: 0.5s;
+}
+.logo-title a:hover {
+  transform: scale(1.03);
+  color: gray;
+}
+.footer-logo img {
+  width: 100px;
+}
+.action {
+  position: absolute;
+  width: 300px;
+  animation: action 1s infinite;
+}
+.bottom-logo h1 {
+  font-size: 60px;
+}
+.left-text p {
+  font-size: 25px;
+}
+.right-footer {
+  display: flex;
+  justify-content: space-evenly;
+  width: 900px;
+}
+.left-footer {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  gap: 50px;
+  margin-top: 50px;
+  margin-left: 50px;
+  border-right: 1px gainsboro solid;
+}
+.products {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-top: 100px;
+}
+.footer-type-mersedes li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 25px;
+}
+.generals {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-top: 100px;
+}
+.partners {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-top: 100px;
+}
+.company {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.bottom-1 {
+  margin-top: 70px;
+}
+.bottom-2 {
+  margin-top: 10px;
+}
+.bottom-3 {
+  margin-top: 50px;
+}
+footer p {
+  color: rgb(173, 173, 173);
+}
+.footer-part1 {
+  display: flex;
+}
+.social-img1 {
+  width: 38vw;
+  height: 1px;
+  margin-left: 10px;
+}
+.social-img2 {
+  width: 38vw;
+  height: 1px;
+}
+.social {
+  margin-top: 60px;
+}
+.programms {
+  width: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.bottom-of-website h4 {
+  color: rgb(74, 74, 74);
+  margin-top: 50px;
+  font-size: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+}
+footer {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+}
+footer p {
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+footer h1 {
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
